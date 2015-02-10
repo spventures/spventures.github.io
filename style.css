@@ -165,7 +165,8 @@ p{
 	background-size: cover;
 }
 
-#fip h1{ color: #0C2673;}
+#fip h1,
+#criatex h1{ color: #0C2673;}
 #fip p{ width: 74%;}
 p.small{ font-size: 14px;}
 a.call-button{
@@ -185,4 +186,17 @@ a.call-button:hover{ opacity: 0.6;}
 #fip span{ 
 	margin: 30px 40px 0 0;
 }
+
+#criatec {
+	padding: 70px 0;
+}
+
+#criatec .left{ 
+	width: 30%; 
+	float: none; 
+	display: inline-block; }
+#criatec .right{ 
+	width: 70%; 
+	float: none; 
+	display: inline-block; }
 
