@@ -141,7 +141,8 @@ p{
 }
 
 #como-agregamos-valor{ 
-	padding-top: 20px; 
+	padding-top: 20px;
+	padding-bottom: 40px; 
 	color: #fff;
 	background: url("bg-section.png") no-repeat #000;
 	background-position: 160% center;
@@ -152,5 +153,12 @@ p{
 #como-agregamos-valor span {
 	font-size: 18px;
 	margin-right: 70px;
-	margin-bottom: 40px;
+}
+
+#fip{
+	width: 100%;
+	height: 600px;
+	background: url("bg-fip.jpg") no-repeat;
+	background-position: center top;
+	background-size: cover;
 }
