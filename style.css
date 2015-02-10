@@ -93,7 +93,7 @@ p{
 	margin-top: 80px;
 	width: 100%;
 	height: 600px;
-	background: url("bg-intro.jpg") no-repeat;
+	background: url("images/bg-intro.jpg") no-repeat;
 	background-position: center top;
 	background-size: cover;
 }
@@ -136,7 +136,7 @@ p{
 	vertical-align: middle;
 	content: " ";
 	margin-right: 15px;
-	background: url("before.png") no-repeat;
+	background: url("images/before.png") no-repeat;
 	background-position: center center;
 }
 
@@ -144,7 +144,7 @@ p{
 	padding-top: 20px;
 	padding-bottom: 40px; 
 	color: #fff;
-	background: url("bg-section.png") no-repeat #000;
+	background: url("images/bg-section.png") no-repeat #000;
 	background-position: 160% center;
 }
 #como-agregamos-valor h2, 
@@ -158,7 +158,7 @@ p{
 #fip{
 	padding-top: 20px;
 	width: 100%;
-	background: url("bg-fip.jpg") no-repeat #E1E1E1;
+	background: url("images/bg-fip.jpg") no-repeat #E1E1E1;
 	background-position: center top;
 	background-size: cover;
 }
@@ -169,7 +169,7 @@ p.small{ font-size: 14px;}
 a.call-button{
 	width:390px;
 	height:100px;
-	background: url("call-action-button.png") no-repeat; 
+	background: url("images/call-action-button.png") no-repeat; 
 	display: block;
 	margin: 40px 0 0 0;
 	font-size: 28px;
