@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial|Muli:400,400italic,300italic,300);
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+header{
+	background-color: #04216D;
+	width: 100%;
+	height: 55px;
+	box-shadow: 0px 5px 5px #888888;
+	top:0;
+	position: absolute;
+}
+
+header img{
+	float: left;
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+header ul{
+	float: right;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+header ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 25px;
+}
+
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+header ul li a:hover{
+	color: #fff;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+body{ margin:0; padding: 0;}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 1150px;
+  padding: 0 10px;
+}
+
+.wrapper:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.left{ float: left; }
+.right{ float:right;}
+
+h1, h2, h3, h4{ 
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+h2{
+	font-size: 28px;
+	color:#86B7F9;
+}
+
+h1{
+	color: #4E5697;
+	font-size: 34px;
+}
+
+p{
+	font-size: 18px;
+	letter-spacing: 0.5;
+	font-weight: 300;
+}
+
+
+#bg-image{
+	margin-top: 80px;
+	width: 100%;
+	height: 600px;
+	background: url("bg-intro.jpg") no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+#sobre{ padding: 30px 0; }
+#sobre p{ color: #999; }
+#sobre .left,
+#sobre .right{ width: 50%; }
+#sobre .right{ text-align: right;}
+
+#o-que-e { 
+	background: #001a3d; 
+	padding-top: 20px;
+	color: #fff;
+}
+#o-que-e img{
+	position: absolute;
+	margin-left: -170px;
+	display: block;
+}
+#o-que-e .text {
+	position: relative;
+	width: 70%;
+	float:right;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#o-que-e a {
+	font-size: 28px;
+	color: #3db3fd;
+	font-weight: 300;
+	text-decoration: none;
+}
+#o-que-e a:hover{ text-decoration: underline;}
+#o-que-e a:before{ 
+	height: 29px;
+	width: 19px;
+	display: inline-block;
+	vertical-align: middle;
+	content: " ";
+	margin-right: 15px;
+	background: url("before.png") no-repeat;
+	background-position: center center;
+}
+
+#como-agregamos-valor{ 
+	padding-top: 20px; 
+	color: #fff;
+	background: url("bg-section.png") no-repeat #000;
+	background-position: 160% center;
+}
+#como-agregamos-valor h2, 
+#como-agregamos-valor h1{ color: #fff;}
+#como-agregamos-valor p { width: 65%;}
+#como-agregamos-valor span {
+	font-size: 18px;
+	margin-right: 70px;
+	margin-bottom: 40px;
+}

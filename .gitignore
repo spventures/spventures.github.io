@@ -1,0 +1,12 @@
+.DS_Store
+_site/
+_backup/
+server/
+serve/
+/start
+.gems
+spec/_posts/*
+.sass-cache/
+.bundle/
+node_modules/
+.idea/
