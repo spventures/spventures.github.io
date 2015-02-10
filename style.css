@@ -66,6 +66,7 @@ body{ margin:0; padding: 0;}
 
 .left{ float: left; }
 .right{ float:right;}
+.space{ margin: 40px 0;}
 
 h1, h2, h3, h4{ 
 	font-weight: 300;
@@ -153,10 +154,11 @@ p{
 #como-agregamos-valor span {
 	font-size: 18px;
 	margin-right: 70px;
+	margin-bottom: 30px;
 }
 
 #fip{
-	padding-top: 20px;
+	padding: 20px 0;
 	width: 100%;
 	background: url("images/bg-fip.jpg") no-repeat #E1E1E1;
 	background-position: center top;
@@ -181,5 +183,6 @@ a.call-button{
 a.call-button:hover{ opacity: 0.6;}
 
 #fip span{ 
-	margin: 30px 50px 0 0;
+	margin: 30px 40px 0 0;
 }
+
