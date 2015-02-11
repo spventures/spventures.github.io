@@ -33,8 +33,17 @@ header ul{
 header ul li{
 	display: inline-block;
 	list-style: none;
-	margin-left: 25px;
+	margin-left: 20px;
 }
+
+header ul li:before{
+	content: "\2666";
+	margin-right: 20px;
+	color: #fff;
+	font-size: 12px;
+}
+
+header ul li:first-child:before{ display: none;}
 
 header ul li a{
 	color: #fff;
