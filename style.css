@@ -253,4 +253,10 @@ a.call-button2:hover{ opacity: 0.6;}
 
 #investidores p{ margin-bottom: 20px;}
 
+footer{
+	background: #545a8c;
+	padding: 10px 0;
+	color: #fff;
+}
+
 
