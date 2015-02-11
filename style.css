@@ -83,6 +83,8 @@ h1{
 	font-size: 34px;
 }
 
+h2.blue{ color: #3374D8; }
+
 p{
 	font-size: 18px;
 	letter-spacing: 0.5;
@@ -196,7 +198,29 @@ a.call-button:hover{ opacity: 0.6;}
 	float: none; 
 	display: inline-block; }
 #criatec .right{ 
-	width: 70%; 
-	float: none; 
-	display: inline-block; }
+	width: 65%; 
+}
+
+#criatec span{
+	margin-bottom: 40px;
+	margin-right: 60px;
+}
+#criatec span.last{ margin-right: 0; }
+#criatec span.less{ margin-right: 40px; }
+
+#o-que-buscamos {
+	background: #011423;
+	padding: 20px 0;
+	color: #fff;
+}
+
+#o-que-buscamos h2{ width: 65%; }
+#o-que-buscamos ul { width: 50%; }
+#o-que-buscamos ul li { 
+	margin: 20px;
+	font-size: 18px;
+}
+
+
+
 
