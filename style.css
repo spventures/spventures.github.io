@@ -8,7 +8,7 @@
 body{
 	font-family: 'Muli', sans-serif;
 }
-
+p{ margin-bottom: 20px;}
 header{
 	background-color: #04216D;
 	width: 100%;
@@ -99,6 +99,7 @@ p{
 	letter-spacing: 0.5;
 	font-weight: 300;
 }
+.small{ font-size: 14px;}
 
 
 #bg-image{
@@ -179,7 +180,6 @@ p{
 #fip h1,
 #criatex h1{ color: #0C2673;}
 #fip p{ width: 74%;}
-p.small{ font-size: 14px;}
 a.call-button{
 	width:390px;
 	height:100px;
