@@ -209,12 +209,13 @@ a.call-button:hover{ opacity: 0.6;}
 #criatec span.less{ margin-right: 40px; }
 
 #o-que-buscamos {
-	background: #011423;
+	background: url("images/bg-section-lamp.png") no-repeat #011423;
+	background-position: 400% 0%;
 	padding: 20px 0;
 	color: #fff;
-}
+} 
 
-#o-que-buscamos h2{ width: 65%; }
+#o-que-buscamos h2{ width: 65%; margin-bottom: 10px;}
 #o-que-buscamos ul { width: 50%; }
 #o-que-buscamos ul li { 
 	margin: 20px;
