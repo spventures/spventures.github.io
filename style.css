@@ -221,6 +221,25 @@ a.call-button:hover{ opacity: 0.6;}
 	font-size: 18px;
 }
 
+#call-action{
+	padding: 20px 0 0 0;
+	background: url("images/bg-ca.png") repeat;
+}
 
+#call-action h1{ color: #3695f3;}
+
+a.call-button2{
+	width:490px;
+	height:100px;
+	background: url("images/call-action-button2.png") no-repeat; 
+	display: block;
+	margin: 40px 0 0 0;
+	font-size: 28px;
+	color: #fff;
+	text-decoration: none;
+	padding: 30px 0 20px 160px;
+}
+
+a.call-button2:hover{ opacity: 0.6;}
 
 
