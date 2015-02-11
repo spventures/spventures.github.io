@@ -242,4 +242,14 @@ a.call-button2{
 
 a.call-button2:hover{ opacity: 0.6;}
 
+#investidores{ padding: 20px 0;}
+#investidores .left{ width: 47%;}
+#investidores .wrapper{
+	background: url("images/investidores.png") no-repeat;
+	background-position: right top;
+	background-size: auto 100%;
+} 
+
+#investidores p{ margin-bottom: 20px;}
+
 
