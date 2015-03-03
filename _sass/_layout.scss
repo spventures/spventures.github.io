@@ -34,6 +34,14 @@ header {
   }
 }
 
+.left, .right{
+  width: 50%;
+  display: block;
+}
+.right{
+  right:0;
+}
+
 .site-title {
   font-size: 26px;
   line-height: 56px;
