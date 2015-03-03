@@ -1,15 +1,18 @@
 /**
  * Site header
  */
+header, footer{
+  .wrapper{ padding: 0 10px; }
+}
+
 header {
   border-top: 5px solid $blue;
   border-bottom: 2px solid $gold;
   min-height: 40px;
-  padding: 20px;
+  padding: 20px 0;
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  .wrapper{ padding: 0 10px; }
   ul{ float: right; }
 
   ul li {
@@ -32,12 +35,25 @@ header {
   }
 }
 
-.left, .right{
+.left, 
+.right{
   width: 46%;
   display: block;
 }
 .right{ float:right; }
 .left{ float:left; }
+
+#o-que-e, 
+#call-action {
+  background-color: $blue;
+  h2, h3, p { color: #fff;}
+}
+
+#criatec{ background-color: $light-gray; }
+
+
+
+
 
 .site-title {
   font-size: 26px;
