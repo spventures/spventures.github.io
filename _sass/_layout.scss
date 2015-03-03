@@ -4,10 +4,34 @@
 header {
   border-top: 5px solid $blue;
   border-bottom: 2px solid $gold;
-  min-height: 56px;
+  min-height: 40px;
+  padding: 20px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  ul{ 
+    float: right;
+  }
+
+  ul li {
+    display: inline-block;
+    margin-top: 10px;
+    &:after{
+      content: "|";
+      margin: 0 6px;
+    }
+    &:last-child:after{ display: none;}
+    a{
+      text-transform: uppercase;
+      color: $text-color;
+      &:hover{ 
+        color: $gold;
+        text-decoration: none;
+        border-bottom: 2px solid $gold;
+      }
+    }
+  }
 }
 
 .site-title {
@@ -161,9 +185,6 @@ header {
 /**
  * Page content
  */
-.page-content {
-  padding: $spacing-unit 0;
-}
 
 .page-heading {
   font-size: 20px;
