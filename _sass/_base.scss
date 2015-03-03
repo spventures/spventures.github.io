@@ -69,6 +69,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: $blue;
+}
+
+h3{
+  font-size: 18px;
+  color: #999;
+  &:before, &:after{
+    content: " ";
+    display: inline-block;
+    height: 16px;
+    width: 23px;
+  }
+  &:before {
+    background: url("/images/before-quote.png") no-repeat;
+    margin-right: 10px;
+  }
+  &:after {
+    background: url("/images/after-quote.png") no-repeat;
+    margin-left: 10px;
+  }
+}
+
 
 
 /**

@@ -9,12 +9,8 @@ header {
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  .wrapper{
-    padding: 0 10px;
-  }
-  ul{ 
-    float: right;
-  }
+  .wrapper{ padding: 0 10px; }
+  ul{ float: right; }
 
   ul li {
     display: inline-block;
@@ -26,7 +22,7 @@ header {
     &:last-child:after{ display: none;}
     a{
       text-transform: uppercase;
-      color: $text-color;
+      color: $menu-color;
       &:hover{ 
         color: $gold;
         text-decoration: none;
@@ -37,12 +33,11 @@ header {
 }
 
 .left, .right{
-  width: 50%;
+  width: 46%;
   display: block;
 }
-.right{
-  right:0;
-}
+.right{ float:right; }
+.left{ float:left; }
 
 .site-title {
   font-size: 26px;
