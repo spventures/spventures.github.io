@@ -77,6 +77,27 @@ header {
   background-size: 100% auto;
 }
 
+ul.team li{ 
+  margin: 10px 8px;
+  display: inline-block;
+  .info-box{
+    position: absolute;
+    margin-left: 70px;
+    max-width: 150px;
+    margin-top: 80px;
+    background-color: rgba(202,168,51,0.8);
+    padding: 15px;
+    color: #fff;
+    display: none;
+  }
+  &#t1:hover,
+  &#t2:hover,
+  &#t3:hover,
+  &#t4:hover{
+    .info-box{ display: block; }
+  }
+}
+
 
 
 
