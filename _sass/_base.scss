@@ -89,11 +89,11 @@ h3{
     width: 23px;
   }
   &:before {
-    background: url("/images/before-quote.png") no-repeat;
+    background: url("../images/before-quote.png") no-repeat;
     margin-right: 10px;
   }
   &:after {
-    background: url("/images/after-quote.png") no-repeat;
+    background: url("/..images/after-quote.png") no-repeat;
     margin-left: 10px;
   }
 }
