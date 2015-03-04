@@ -103,6 +103,35 @@ ul#list-item li {
   margin: 0 0 15px 15px
 }
 
+footer{
+  background-color: $blue;
+  color: #fff;
+  padding: 10px 5px;
+  a{
+    color: #fff;
+    text-transform: uppercase;
+    &:hover{
+      color: $gold;
+      border-bottom: 2px solid $gold;
+      text-decoration: none;
+    }
+  }
+  .right{
+    text-align: right;
+  }
+  ul li{
+    margin-bottom: 10px;
+    display: inline-block;
+    &:after{
+      content: "|";
+      margin: 0 1px;
+    }
+    &:last-child:after{ display: none;}
+  }
+}
+
+.small{ font-size: 12px; }
+
 
 
 
