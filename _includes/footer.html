@@ -28,3 +28,9 @@
     </div>
   </div>
 </footer>
+<script type="text/javascript">
+  $(".original a").click(function(evn){
+      evn.preventDefault();
+      $('html,body').scrollTo(this.hash, this.hash);
+  });
+</script>
