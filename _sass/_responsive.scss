@@ -1,10 +1,12 @@
 //responsive
 
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .big-image{
     height: 350px;
   }
+  ul.original{ display: none;}
+  .mobile-nav { display: block;}
 }
 
 
