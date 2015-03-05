@@ -7,6 +7,12 @@
   }
   ul.original{ display: none;}
   .mobile-nav { display: block;}
+  #historico, #quem-somos {
+    .left, .right{
+      float: none;
+      width: 100%;
+    }
+  }
 }
 
 

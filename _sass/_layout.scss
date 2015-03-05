@@ -49,8 +49,13 @@ header {
   background-color: $blue;
   h1, h2, h3, p { color: #fff;}
 }
-
-#historico{ background-color: $light-gray; }
+#quem-somos .right{
+  min-width: 375px;
+}
+#historico{ 
+  background-color: $light-gray; 
+  .left, .right { width: 100%;}
+}
 #call-action{
   text-align: center;
   button{
@@ -77,26 +82,32 @@ header {
   background-position: center center;
   background-size: 100% auto;
 }
+.info-box{
+  position: absolute;
+  margin-left: 70px;
+  max-width: 200px;
+  margin-top: 80px;
+  background-color: rgba(202,168,51,0.8);
+  padding: 15px;
+  color: #fff;
+  display: none;
+}
 
+.criatec-logos .info-box {
+  margin-top: -60px;
+  margin-left: 90px;
+}
+
+#t1:hover,
+#t2:hover,
+#t3:hover,
+#t4:hover,
+.criatec-logos span:hover{
+  .info-box{ display: block; }
+}
 ul.team li{ 
   margin: 10px 8px;
   display: inline-block;
-  .info-box{
-    position: absolute;
-    margin-left: 70px;
-    max-width: 200px;
-    margin-top: 80px;
-    background-color: rgba(202,168,51,0.8);
-    padding: 15px;
-    color: #fff;
-    display: none;
-  }
-  &#t1:hover,
-  &#t2:hover,
-  &#t3:hover,
-  &#t4:hover{
-    .info-box{ display: block; }
-  }
 }
 
 ul#list-item li {
@@ -187,5 +198,8 @@ footer{
 
 .mobile-nav { display: none;}
 
-
+.criatec-logos span{ 
+  display: inline-block;
+  margin: 10px 10px;
+}
 
