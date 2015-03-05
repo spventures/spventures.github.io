@@ -13,9 +13,9 @@ header {
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  ul{ float: right; }
+  ul.original{ float: right; }
 
-  ul li {
+  ul.original li {
     display: inline-block;
     margin-top: 10px;
     &:after{
