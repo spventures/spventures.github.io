@@ -26,9 +26,13 @@
   }
   #call-action{
     h1{ font-size: 22px;}
-    button{ font-size: 14px; padding: 10px 15px;}
+    a{ font-size: 14px; padding: 10px 15px;}
   }
   footer .left{ display: none;}
+  .info-box, .criatec-logos .info-box {
+    margin-top: -60px;
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 500px){
