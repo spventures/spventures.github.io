@@ -1,0 +1,25 @@
+//responsive
+
+
+@media (max-width: 800px) {
+  .big-image{
+    height: 350px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .big-image{
+    height: 300px;
+  }
+  .left, .right{
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px){
+  .big-image{
+    height: 100px;
+  }
+}
