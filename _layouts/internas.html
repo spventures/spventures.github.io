@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <script type="text/javascript">
+  jQuery(function($){
+       $( '.menu-btn' ).click(function(){
+       $('.responsive-menu').addClass('expand')
+       })
+      
+       $( '.help-close' ).click(function(){
+       $('.responsive-menu').removeClass('expand')
+       $('.menu-btn').removeClass('btn-none')
+       })
+     })
+  </script>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="/" class="logo">
+          <img src="../images/logo.png" />
+        </a>
+        <ul class="original">
+          <li>
+            <a href="/spventures/">HOME</a>
+          </li>
+        </ul>
+        <div id="nav-responsive">
+          <div class="mobile-nav">
+               <div class="menu-btn" id="menu-btn">
+          <div></div>
+          <span></span>
+          <span></span>
+          <span></span>
+               </div>
+           
+               <div class="responsive-menu">
+                  <ul>
+                     <li><a class="help-close" href="/">HOME</a></li>
+                  </ul>
+               </div>
+          </div>
+        </div>
+      </div> 
+    </header>
+
+
+
+    {{ content }}
+
+    <footer>
+      <div class="wrapper">
+        <div class="right">
+          <span class="small">
+             R. Helena, 309, 10 andar. Vila Olimpia - São Paulo / SP
+            <br/>
+            (11) 2594-8774
+          </span>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+
+</html>
