@@ -6,14 +6,14 @@ header, footer{
 }
 
 .logo{ float:left;}
-header {
+header.default {
   border-top: 5px solid $blue;
   border-bottom: 2px solid $blue;
   min-height: 40px;
   padding: 20px 0;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
   ul.original{ float: right; }
 
   ul.original li {
@@ -31,6 +31,37 @@ header {
         color: $gold;
         text-decoration: none;
         border-bottom: 2px solid $gold;
+      }
+    }
+  }
+}
+
+header.default.tiny {
+  border-top: 0;
+  min-height: 20px;
+  padding: 10px 0;
+  opacity: 0.1;
+  background-color: #fff;
+  .logo img{ width: 110px;}
+  &:hover{ opacity: 1;}
+  ul.original{ float: right; margin: 0; padding: 0; }
+  ul.original li {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 10px;
+    margin: 0;
+    border: 1px solid $blue;
+
+    &:hover{background-color: $blue;}
+    &:after{ display: none;}
+    a{
+      text-transform: uppercase;
+      font-size: 12px;
+      color: $menu-color;
+      &:hover{ 
+        text-decoration: none;
+        border-bottom: 0;
+        color: #fff;
       }
     }
   }

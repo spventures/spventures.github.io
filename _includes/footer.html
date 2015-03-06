@@ -33,4 +33,10 @@
       evn.preventDefault();
       $('html,body').scrollTo(this.hash, this.hash);
   });
+  
+  if(document.body.offsetWidth >= 686) {
+      $(window).on("scroll touchmove", function() {
+        $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
+      });
+    }
 </script>
