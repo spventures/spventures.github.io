@@ -92,6 +92,17 @@
   .big-image {
     height: 180px;
   }
+  
+  // Empreendedo
+
+  #empreendedor,
+  #investidores {
+    .right {
+      img {
+        margin-top: 20px;
+      }
+    }
+  }
 
   .left,
   .right {
