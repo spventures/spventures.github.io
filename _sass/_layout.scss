@@ -125,26 +125,29 @@ header.default.tiny {
 
 #call-action {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 
   h1 {
     margin-bottom: 40px;
   }
   
   a {
-    font-size: 30px;
+    font-size: 23px;
+    height: 60px;
+    line-height: 60px;
     color: #fff;
     background-color: $gold;
     border: 0;
+    text-decoration: none;
     text-transform: uppercase;
-    padding: 20px 40px;
-    border-radius: 10px;
+    padding: 0 30px;
+    border-radius: 6px;
+    display: inline-block;
     cursor: pointer;
     box-shadow: 0px 10px 0px 0px #847c44;
 
     &:hover { 
-      background-color: #847c44;
-      text-decoration:none;
+      opacity: .9;
     }
   } // a
 }
