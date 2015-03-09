@@ -1,11 +1,20 @@
 /**
  * Site header
  */
+
 header, footer{
-  .wrapper{ padding: 0 10px; }
+  .wrapper {
+    padding: 0 10px;
+  }
 }
 
-.logo{ float:left;}
+.logo {
+  float: left;
+}
+
+
+// Header
+
 header.default {
   border-top: 5px solid $blue;
   border-bottom: 2px solid $blue;
@@ -14,25 +23,34 @@ header.default {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  ul.original{ float: right; }
+
+  ul.original {
+    float: right;
+  }
 
   ul.original li {
     display: inline-block;
     margin-top: 10px;
-    &:after{
+
+    &:after {
       content: "|";
       margin: 0 6px;
     }
-    &:last-child:after{ display: none;}
-    a{
+
+    &:last-child:after {
+      display: none;
+    }
+
+    a {
       text-transform: uppercase;
       color: $menu-color;
-      &:hover{ 
+
+      &:hover { 
         color: $gold;
         text-decoration: none;
         border-bottom: 2px solid $gold;
       }
-    }
+    } // a
   }
 }
 
@@ -67,32 +85,52 @@ header.default.tiny {
   }
 }
 
+
+// Slider
+
+.big-image {
+  height: 550px;
+  padding-top: 80px;
+  background: url("../images/bg-slider2.jpg") center center no-repeat;
+  background-size: 100% auto;
+}
+
 .left, 
-.right{
+.right {
   width: 46%;
   display: block;
 }
-.right{ float:right; }
-.left{ float:left; }
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
 
 #portfolio, 
 #call-action {
   background-color: $blue;
+  
   h1, h2, h3, p { color: #fff;}
 }
-#historico{ 
+
+#historico { 
   background-color: $light-gray; 
+  
   .left { width: 30%;}
   .right { width: 65%;}
-
 }
+
 #call-action{
   text-align: center;
   padding-bottom: 40px;
-  h1{
+
+  h1 {
     margin-bottom: 40px;
   }
-  a{
+  
+  a {
     font-size: 30px;
     color: #fff;
     background-color: $gold;
@@ -102,22 +140,15 @@ header.default.tiny {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0px 10px 0px 0px #847c44;
-    &:hover{ 
+
+    &:hover { 
       background-color: #847c44;
       text-decoration:none;
     }
-  }
+  } // a
 }
 
-.big-image{
-  height: 550px;
-  display: block;
-  padding-top:80px;
-  background: url("../images/bg-slider2.jpg") no-repeat;
-  background-position: center center;
-  background-size: 100% auto;
-}
-.info-box{
+.info-box {
   position: absolute;
   margin-left: 70px;
   max-width: 200px;
@@ -128,7 +159,9 @@ header.default.tiny {
   display: none;
 }
 
-.criatec-logos span{ width: 125px;}
+.criatec-logos span {
+  width: 125px;
+}
 
 .criatec-logos .info-box {
   margin-top: -60px;
@@ -139,9 +172,13 @@ header.default.tiny {
 #t2:hover,
 #t3:hover,
 #t4:hover,
-.criatec-logos span:hover{
-  .info-box{ display: block; }
+.criatec-logos span:hover {
+  
+  .info-box {
+    display: block;
+  }
 }
+
 ul.team li{ 
   margin: 10px 8px;
   display: inline-block;
@@ -152,36 +189,44 @@ ul#list-item li {
   margin: 0 0 15px 15px
 }
 
-footer{
+footer {
   background-color: $blue;
   color: #fff;
   padding: 10px 5px;
-  a{
+
+  a {
     color: #fff;
     text-transform: uppercase;
-    &:hover{
+
+    &:hover {
       color: $gold;
       border-bottom: 2px solid $gold;
       text-decoration: none;
     }
   }
-  .right{
+
+  .right {
     text-align: right;
   }
-  ul li{
+
+  ul li {
     margin-bottom: 10px;
     display: inline-block;
-    &:after{
+
+    &:after {
       content: "|";
       margin: 0 1px;
     }
+
     &:last-child:after{ display: none;}
   }
 }
 
-.small{ font-size: 12px; }
+.small {
+  font-size: 12px;
+}
 
-.mobile-nav{
+.mobile-nav {
   float: right;
 }
 
@@ -207,7 +252,7 @@ footer{
   z-index: 99;
 }
  
-.responsive-menu{
+.responsive-menu {
   display: none;
 }
  
@@ -215,28 +260,31 @@ footer{
   display: block !important;
   position: absolute;
   right: 50px;
-  ul li{
+
+  ul li {
     background: #fff;
     padding: 10px 15px;
     text-transform: uppercase;
     border: 1px solid #fafafa;
-    a{
+
+    a {
       text-transform: uppercase;
       color: $menu-color;
+
       &:hover{ 
         color: $gold;
         text-decoration: none;
         border-bottom: 2px solid $gold;
       }
-    }
+    } // a
   }
 }
 
+.mobile-nav {
+  display: none;
+}
 
-.mobile-nav { display: none;}
-
-.criatec-logos span{ 
+.criatec-logos span { 
   display: inline-block;
   margin: 10px 10px;
 }
-
