@@ -140,7 +140,7 @@ header.default.tiny {
   h1 {
     margin-bottom: 40px;
   }
-  
+
   a {
     font-size: 23px;
     height: 60px;
@@ -156,7 +156,7 @@ header.default.tiny {
     cursor: pointer;
     box-shadow: 0px 10px 0px 0px #847c44;
 
-    &:hover { 
+    &:hover {
       opacity: .9;
     }
   } // a
@@ -174,17 +174,6 @@ header.default.tiny {
   padding: 15px;
   color: #fff;
   display: none;
-}
-
-.criatec-logos span {
-  width: 125px;
-  display: inline-block;
-  margin: 10px 10px;
-}
-
-.criatec-logos .info-box {
-  margin-top: -60px;
-  margin-left: 90px;
 }
 
 #t1:hover,
@@ -206,6 +195,19 @@ ul.team li {
 ul#list-item li {
   list-style: square;
   margin: 0 0 15px 15px
+}
+
+/*-*/
+
+.criatec-logos span {
+  width: 125px;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.criatec-logos .info-box {
+  margin-top: -60px;
+  margin-left: 90px;
 }
 
 

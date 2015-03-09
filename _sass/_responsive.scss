@@ -38,7 +38,7 @@
     width: 90%;
     padding: 0 5%;
   }
-  
+
   header.default {
     height: auto !important;
     padding-bottom: 10px;
@@ -62,7 +62,7 @@
   
   .main-nav {
     display: none;
-    
+
     li {
       width: 100%;
       display: block;
@@ -88,11 +88,11 @@
       } // a
     }
   }
-  
+
   .big-image {
-    height: 300px;
+    height: 200px;
   }
-  
+
   .left,
   .right {
     float: none;
@@ -100,8 +100,40 @@
   }
   
   #call-action {
-    h1 { font-size: 22px;}
-    a { font-size: 14px;}
+    h1 {
+      font-size: 22px;
+    }
+
+    a {
+      font-size: 14px;
+    }
+  }
+
+  .team {
+    margin-top: 30px;
+
+    li {
+      width: 100%;
+      display: block;
+      background: #f2f2f2;
+      margin: 10px 0 0 0 !important;
+      padding: 15px 0;
+      
+      img {
+        width: 80px;
+        margin-left: 20px;
+      }
+      
+      .info-box {
+        width: 100%;
+        position: none !important;
+        margin-left: 0;
+        max-width: auto;
+        margin-top: 0;
+        display: block;
+        right: 5%;
+      }
+    }
   }
 
   footer .left{ display: none;}
