@@ -81,6 +81,9 @@ header.default.tiny {
   background-size: 100% auto;
 }
 
+
+// Content
+
 .left, 
 .right {
   width: 46%;
@@ -104,6 +107,9 @@ header.default.tiny {
   }
 }
 
+
+// Historico
+
 #historico { 
   background-color: $light-gray; 
   
@@ -115,6 +121,9 @@ header.default.tiny {
     width: 65%;
   }
 }
+
+
+// Call To Action
 
 #call-action {
   text-align: center;
@@ -145,6 +154,9 @@ header.default.tiny {
   } // a
 }
 
+
+// Investor Info Box
+
 .info-box {
   position: absolute;
   margin-left: 70px;
@@ -158,6 +170,8 @@ header.default.tiny {
 
 .criatec-logos span {
   width: 125px;
+  display: inline-block;
+  margin: 10px 10px;
 }
 
 .criatec-logos .info-box {
@@ -176,7 +190,7 @@ header.default.tiny {
   }
 }
 
-ul.team li{ 
+ul.team li { 
   margin: 10px 8px;
   display: inline-block;
 }
@@ -185,6 +199,9 @@ ul#list-item li {
   list-style: square;
   margin: 0 0 15px 15px
 }
+
+
+// Footer
 
 footer {
   background-color: $blue;
@@ -223,10 +240,6 @@ footer {
   font-size: 12px;
 }
 
-.mobile-nav {
-  float: right;
-}
-
 .menu-btn div {
   position: absolute;
   right: 100%;
@@ -247,10 +260,6 @@ footer {
   margin: 4px 0;
   background: rgb(0,0,0);
   z-index: 99;
-}
- 
-.responsive-menu {
-  display: none;
 }
  
 .expand {
@@ -277,11 +286,7 @@ footer {
   }
 }
 
+.responsive-menu,
 .mobile-nav {
   display: none;
-}
-
-.criatec-logos span { 
-  display: inline-block;
-  margin: 10px 10px;
 }
