@@ -29,14 +29,18 @@
   </div>
 </footer>
 <script type="text/javascript">
-  $(".original a").click(function(evn){
+  $(".main-nav a").click(function(evn){
       evn.preventDefault();
       $('html,body').scrollTo(this.hash, this.hash);
   });
   
   if(document.body.offsetWidth >= 686) {
-      $(window).on("scroll touchmove", function() {
-        $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
-      });
-    }
+    $(window).on("scroll touchmove", function() {
+      $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
+    });
+  }
+  
+  $("#menu-trigger").click(function(){
+    $('.main-nav').toggle();
+  });
 </script>

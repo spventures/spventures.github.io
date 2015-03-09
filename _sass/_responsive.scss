@@ -35,8 +35,54 @@
 @media only screen and (max-width: 686px) {
   
   .wrapper {
-    width: 96%;
-    padding: 0 2%;
+    width: 90%;
+    padding: 0 5%;
+  }
+  
+  header.default {
+    height: auto !important;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    opacity: 1;
+  }
+  
+  #menu-trigger {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 9px;
+    cursor: pointer;
+  }
+  
+  .main-nav {
+    display: none;
+    
+    li {
+      width: 100%;
+      display: block;
+      margin-bottom: 1px;
+
+      &:after {
+        display: none;
+      }
+
+      &:last-child:after {
+        display: none;
+      }
+
+      a {
+        display: block;
+        height: 36px;
+        line-height: 36px;
+        background: $medium-grey;
+        text-transform: uppercase;
+        color: #fff !important;
+        padding: 0 8px;
+        font-weight: bold;
+      } // a
+    }
   }
   
   .big-image {
