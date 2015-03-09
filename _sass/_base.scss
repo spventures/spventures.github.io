@@ -79,19 +79,22 @@ h2{
   color: $blue;
 }
 
-h3{
+h3 {
   font-size: 18px;
-  color: #999;
-  &:before, &:after{
+  color: $medium-grey;
+
+  &:before, &:after {
     content: " ";
     display: inline-block;
     height: 16px;
     width: 23px;
   }
+
   &:before {
     background: url("../images/before-quote.png") no-repeat;
     margin-right: 10px;
   }
+
   &:after {
     background: url("../images/after-quote.png") no-repeat;
     margin-left: 10px;
