@@ -132,6 +132,20 @@ header.default.tiny {
 }
 
 
+// Empreendedor
+
+#empreendedor { 
+  .right {
+    img {
+      width: 96%;
+      padding: 2%;
+      border: 1px solid #eee;
+      margin-top: 15px;
+    }
+  }
+}
+
+
 // Call To Action
 
 #call-action {
@@ -204,10 +218,14 @@ ul#list-item li {
 
 /*-*/
 
+.criatec-logos {
+  margin-top: 10px;
+}
+
 .criatec-logos span {
   width: 125px;
   display: inline-block;
-  margin: 10px 10px;
+  margin: 0 10px 10px 10px;
 }
 
 .criatec-logos .info-box {
