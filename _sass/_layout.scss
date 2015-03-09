@@ -2,17 +2,6 @@
  * Site header
  */
 
-header, footer{
-  .wrapper {
-    padding: 0 10px;
-  }
-}
-
-.logo {
-  float: left;
-}
-
-
 // Header
 
 #menu-trigger {
@@ -28,6 +17,7 @@ header.default {
   
   .logo {
     margin-top: 12px;
+    float: left;
   }
 
   .main-nav {
@@ -107,6 +97,15 @@ header.default.tiny {
   float: left;
 }
 
+#quem-somos,
+#portfolio,
+#historico,
+#empreendedor,
+#call-action,
+#investidores {
+  padding: 40px 0;
+}
+
 #portfolio, 
 #call-action {
   background-color: $blue;
@@ -136,7 +135,7 @@ header.default.tiny {
 
 #call-action {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 
   h1 {
     margin-bottom: 40px;

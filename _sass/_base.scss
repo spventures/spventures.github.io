@@ -1,11 +1,26 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+@charset "utf-8";
+
+
+/* Reset */
+
+body, h1, h2, h3, h4,
+form, fieldset, input, label, p,
+em, strong, a, img, ul, li {
+	vertical-align: baseline;
+	font-style: normal;
+  list-style-type: none;
+	padding: 0;
   margin: 0;
-  padding: 0;
+  border: 0;
+}
+
+header, footer, aside,
+nav, article, section { display:block; }
+
+html {
+  font-size: 62.5%;
+  min-height: 100%; /* Fix footer */
+  position: relative; /* Fix footer */
 }
 
 
@@ -173,11 +188,8 @@ pre {
  */
 .wrapper {
   width: 85%;
-  max-width: 1150px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 40px 10px;
   @extend %clearfix;
+  margin: auto;
 
   @include media-query($on-laptop) {
     max-width: 1150px;
