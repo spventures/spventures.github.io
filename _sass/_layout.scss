@@ -132,7 +132,7 @@ header.default.tiny {
 }
 
 
-// Empreendedo
+// Empreendedor
 
 #empreendedor,
 #investidores {
@@ -143,6 +143,14 @@ header.default.tiny {
       border: 1px solid #eee;
     }
   }
+}
+
+#empreendedor .right img {
+  margin-top: 20px;
+}
+
+#investidores .right img {
+  margin-top: -25px;
 }
 
 
@@ -219,7 +227,7 @@ ul#list-item li {
 /*-*/
 
 .criatec-logos {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .criatec-logos span {
