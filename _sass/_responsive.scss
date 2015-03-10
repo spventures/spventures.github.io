@@ -40,6 +40,22 @@
       margin-bottom: 10px;
     }
   }
+  
+  // Footer
+
+  footer {
+    height: auto;
+    padding: 20px 0;
+
+    .main-nav {
+      margin-top: 10px;
+      float: none;
+    }
+  }
+  
+  .small {
+    float: none;
+  }
 
 }
 
@@ -158,10 +174,6 @@
         right: 0;
       }
     }
-  }
-
-  footer .left {
-    display: none;
   }
 
   .info-box,
