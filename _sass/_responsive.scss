@@ -21,7 +21,8 @@
     }
   }
   
-  #historico {
+  #historico,
+  #portfolio {
     .criatec-logos {
       margin-top: 30px;
       text-align: center;
@@ -31,6 +32,12 @@
         margin: 10px 5px 0 5px;
         float: none;
       }
+    }
+  }
+  
+  #portfolio {
+    .criatec-logos {
+      margin-bottom: 10px;
     }
   }
 
