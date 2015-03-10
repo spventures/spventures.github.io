@@ -43,4 +43,16 @@
   $("#menu-trigger").click(function(){
     $('.main-nav').toggle();
   });
+  
+  jQuery(function($){
+    $( '.menu-btn' ).click(function(){
+     $('.responsive-menu').addClass('expand')
+    })
+  
+   $( '.help-close' ).click(function(){
+     $('.responsive-menu').removeClass('expand')
+     $('.menu-btn').removeClass('btn-none')
+   })
+  })  
+  
 </script>
