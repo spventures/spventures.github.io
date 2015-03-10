@@ -120,14 +120,22 @@ header.default.tiny {
 // Historico
 
 #historico { 
-  background-color: $light-gray; 
+  background-color: $light-gray;
+  
+  .criatec-logos {
+    
+    span {
+      margin: 0 0 10px 30px;
+      float: right;
+    }
+  }
   
   .left { 
-    width: 30%;
+    width: 35%;
   }
 
   .right {
-    width: 65%;
+    width: 60%;
   }
 }
 
