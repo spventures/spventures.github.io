@@ -255,6 +255,32 @@ ul#list-item li {
 }
 
 
+// Patrocinadores
+
+#patrocinadores {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 20px 0;
+  
+  h2 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    opacity: .4;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  a img {
+    width: 150px;
+  }
+}
+
+
 // Footer
 
 footer {
