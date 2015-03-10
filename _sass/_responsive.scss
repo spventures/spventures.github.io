@@ -88,11 +88,12 @@
     cursor: pointer;
   }
   
-  .main-nav {
+  header.default .main-nav {
+    width: 100%;
     display: none;
+    margin-top: 10px;
 
     li {
-      width: 100%;
       display: block;
       margin-bottom: 1px;
 
