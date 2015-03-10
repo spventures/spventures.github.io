@@ -97,9 +97,12 @@
   .big-image {
     height: 180px;
   }
-
-
-  // Empreendedor e investidores
+  
+  .left,
+  .right {
+    float: none;
+    width: 100%;
+  }
 
   #empreendedor,
   #investidores {
@@ -108,16 +111,6 @@
         margin-top: 20px;
       }
     }
-  }
-
-  .left,
-  .right {
-    float: none;
-    width: 100%;
-  }
-  
-  .criatec-logos {
-    margin-top: 30px;
   }
   
   #call-action {
@@ -160,8 +153,12 @@
     }
   }
 
-  footer .left{ display: none;}
-  .info-box, .criatec-logos .info-box {
+  footer .left {
+    display: none;
+  }
+
+  .info-box,
+  .criatec-logos .info-box {
     margin-top: -60px;
     margin-left: 10px;
   }
