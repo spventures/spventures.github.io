@@ -11,14 +11,6 @@
     height: 350px;
   }
 
-  ul.original {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: block;
-  }
-
   #historico,
   #quem-somos {
 
@@ -26,6 +18,19 @@
     .right {
       float: none;
       width: 100%;
+    }
+  }
+  
+  #historico {
+    .criatec-logos {
+      margin-top: 30px;
+      text-align: center;
+    
+      span {
+        display: inline-block;
+        margin: 10px 5px 0 5px;
+        float: none;
+      }
     }
   }
 
