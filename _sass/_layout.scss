@@ -25,7 +25,9 @@ header.default {
     margin-top: 23px;
     float: right;
   }
+}
 
+.main-nav {
   li {
     display: inline-block;
     font-size: 12px;
@@ -253,39 +255,34 @@ ul#list-item li {
 // Footer
 
 footer {
+  height: 70px;
   background-color: $blue;
   color: #fff;
-  padding: 10px 5px;
 
-  a {
-    color: #fff;
-    text-transform: uppercase;
+  .main-nav {
+    margin-top: 23px;
+    float: left;
 
-    &:hover {
-      color: $gold;
-      border-bottom: 2px solid $gold;
-      text-decoration: none;
+    li {
+      font-size: 11px;
     }
-  }
-
-  .right {
-    text-align: right;
-  }
-
-  ul li {
-    margin-bottom: 10px;
-    display: inline-block;
-
-    &:after {
-      content: "|";
-      margin: 0 1px;
-    }
-
-    &:last-child:after{ display: none;}
+    
+    a {
+      color: #fff;
+      opacity: .7;
+      
+      &:hover {
+        color: #fff;
+        opacity: 1;
+      }
+    } // a
   }
 }
 
 .small {
+  margin-top: 18px;
+  text-align: right;
+  float: right;
   font-size: 12px;
 }
 
