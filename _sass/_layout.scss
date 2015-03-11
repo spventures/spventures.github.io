@@ -372,11 +372,12 @@ footer {
   .headline {
     height: 70px;
     line-height: 70px;
-    background: $medium-grey;
+    background: $blue;
     margin: 75px 0 0 0;
     
     h1 {
-      font-weight: bold;
+      text-transform: uppercase;
+      font-weight: normal;
       font-size: 24px;
       color: #fff;
     }
@@ -391,5 +392,5 @@ footer {
 }
 
 .contact-form {
-  background: red;
+  padding-top: 40px;
 }
