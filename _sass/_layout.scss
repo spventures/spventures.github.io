@@ -368,29 +368,72 @@ footer {
 
 #internas {
   background: #f2f2f2;
-  
+
   .headline {
     height: 70px;
     line-height: 70px;
     background: $blue;
     margin: 75px 0 0 0;
-    
+
     h1 {
+      text-align: center;
       text-transform: uppercase;
       font-weight: normal;
       font-size: 24px;
       color: #fff;
     }
   }
-  
-  footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
 }
 
 .contact-form {
-  padding-top: 40px;
+  padding: 40px 0;
+  
+  form {
+    width: 450px;
+    background: rgba(#fff, .5);
+    padding: 40px;
+    margin: auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    font-family: $base-font-family;
+    outline: none;
+    font-size: $base-font-size;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  textarea {
+    width: 96%;
+    max-width: 96%;
+    padding: 2%;
+  }
+
+  li {
+    margin-top: 20px;
+  }
+
+  li:first-child {
+    margin-top: 0;
+  }
+  
+  .hide {
+    display: none;
+  }
 }
