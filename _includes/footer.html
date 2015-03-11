@@ -13,10 +13,12 @@
     </ul>
   </div>
 </footer>
+
 <script type="text/javascript">
+
   $(".main-nav a").click(function(evn){
-      evn.preventDefault();
-      $('html,body').scrollTo(this.hash, this.hash);
+    evn.preventDefault();
+    $('html,body').scrollTo(this.hash, this.hash);
   });
   
   if(document.body.offsetWidth >= 686) {
@@ -38,6 +40,20 @@
      $('.responsive-menu').removeClass('expand')
      $('.menu-btn').removeClass('btn-none')
    })
-  })  
+  })
+  
+  $('.bwWrapper').BlackAndWhite({
+      hoverEffect : true,
+      webworkerPath : false,
+      invertHoverEffect: false,
+      intensity:1,
+      speed:
+          fadeIn: 100,
+          fadeOut: 400
+      },
+      onImageReady:function(img) {
+        
+      }
+  });
   
 </script>
