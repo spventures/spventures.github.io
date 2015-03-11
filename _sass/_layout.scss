@@ -436,4 +436,32 @@ footer {
   .hide {
     display: none;
   }
+
+  .req {
+    color: red;
+  }
+  
+  .buttons {
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+  }
+  
+  input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: $gold;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    outline: none;
+
+    &:hover {
+      opacity: .9;
+      cursor: pointer;
+    }
+  }
 }
