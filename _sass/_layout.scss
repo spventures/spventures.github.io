@@ -14,6 +14,8 @@ header.default {
   background: #fff;
   border-top: 5px solid $blue;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 200;
   
   .logo {
@@ -359,4 +361,35 @@ footer {
       }
     } // a
   }
+}
+
+
+// Internas
+
+#internas {
+  background: #f2f2f2;
+  
+  .headline {
+    height: 70px;
+    line-height: 70px;
+    background: $medium-grey;
+    margin: 75px 0 0 0;
+    
+    h1 {
+      font-weight: bold;
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+  
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.contact-form {
+  background: red;
 }
