@@ -149,7 +149,7 @@ header.default.tiny {
   position: absolute;
   margin-left: 40px;
   max-width: 200px;
-  margin-top: 80px;
+  margin-top: -200px;
   background-color: rgba(202,168,51,0.8);
   padding: 15px;
   color: #fff;
@@ -158,6 +158,15 @@ header.default.tiny {
   
   p {
     margin: 10px 0 0 0;
+  }
+}
+
+#t3 {
+  .info-box {
+    margin-left: -260px;
+    width: 320px;
+    max-width: 320px;
+    margin-top: -200px;
   }
 }
 

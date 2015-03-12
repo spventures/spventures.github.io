@@ -178,27 +178,21 @@
       padding: 15px 0;
       z-index: 100;
       
-      .info-box {
-        width: 100%;
-        position: none !important;
-        margin-left: 0;
-        max-width: auto;
-        margin-top: 0;
+      .info-box,
+      #t3 .info-box {
+        width: auto !important;
+        max-width: 100% !important;
         display: block;
+        margin: 0 !important;
         top: 0;
-        right: 0;
+        right: 0 !important;
+        left: 150px;
+      }
+      
+      img {
+        margin-left: 20px;
       }
     }
-    
-    img {
-      width: 30px;
-    }
-  }
-
-  .info-box,
-  .criatec-logos .info-box {
-    margin-top: -60px;
-    margin-left: 10px;
   }
   
   #patrocinadores {
