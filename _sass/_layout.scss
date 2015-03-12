@@ -203,11 +203,10 @@ header.default.tiny {
     border-radius: 6px;
     display: inline-block;
     cursor: pointer;
-    box-shadow: 0 5px 0 0 #847c44;
-    opacity: .9;
+    border-bottom: 5px solid #847c44;
 
     &:hover {
-      opacity: 1;
+      box-shadow: 0 0 70px rgba(#fff, .1);
     }
   } // a
 }
