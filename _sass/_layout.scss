@@ -10,6 +10,10 @@
 
 // Header
 
+.back-link {
+  display: none;
+}
+
 #menu-trigger {
   display: none;
 }
@@ -28,6 +32,10 @@ header.default {
     width: 200px;
     margin-top: 12px;
     float: left;
+    
+    &:hover {
+      opacity: .9;
+    }
   }
 
   .main-nav {
@@ -62,6 +70,36 @@ header.default {
         text-decoration: none;
       }
     } // a
+  }
+}
+
+#internas {
+  
+  header .wrapper {
+    position: relative;
+  }
+  
+  .main-nav {
+    display: none;
+  }
+  
+  .back-link {
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background: #ccc;
+    font-weight: normal;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    
+    &:hover {
+      text-decoration: none;
+      background: $medium-grey;
+    }
   }
 }
 
@@ -146,7 +184,7 @@ header.default.tiny {
 
 #historico { 
   background-color: $light-gray;
-  
+
   .criatec-logos {
     margin-right: -20px;
     
