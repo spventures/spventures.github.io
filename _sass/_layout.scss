@@ -146,25 +146,26 @@ header.default.tiny {
 }
 
 
-// Empreendedor
+// Empreendedor e Investidores
 
 #empreendedor,
 #investidores {
-  .right {
-    img {
-      width: 96%;
-      padding: 2%;
-      border: 1px solid #eee;
-    }
-  }
+  background: #000;
 }
 
-#empreendedor .right img {
-  margin-top: 20px;
+#empreendedor {
+  background: url("../images/empreendedor.jpg") -200px -250px no-repeat;
 }
 
-#investidores .right img {
-  margin-top: -25px;
+#investidores {
+  background: url("../images/investidores.jpg") -400px -220px no-repeat;
+}
+
+.pic {
+  width: 96%;
+  padding: 2%;
+  border: 1px solid #eee;
+  display: none;
 }
 
 

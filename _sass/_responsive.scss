@@ -127,16 +127,23 @@
     float: none;
     width: 100%;
   }
+  
+  #empreendedor,
+  #investidores {
+    background: #fff;
+  }
 
   #empreendedor,
   #investidores {
-    .right {
-      img {
-        margin-top: 20px;
-      }
+    .pic {
+      width: 98%;
+      padding: 1%;
+      border: 1px solid #eee;
+      margin-bottom: 20px;
+      display: block;
     }
   }
-  
+
   #call-action {
     h1 {
       font-size: 22px;
