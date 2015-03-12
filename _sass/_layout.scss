@@ -25,6 +25,7 @@ header.default {
   z-index: 200;
   
   .logo {
+    width: 200px;
     margin-top: 12px;
     float: left;
   }
@@ -68,8 +69,8 @@ header.default.tiny {
   height: 40px;
   
   .logo {
-    width: 100px;
-    margin-top: 7px;
+    width: 100px !important;
+    margin-top: 7px !important;
   }
 
   ul {
