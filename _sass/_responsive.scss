@@ -149,11 +149,34 @@
       display: block;
     }
   }
-  
+
   #empreendedor .right,
   #investidores .left {
     background: none;
     padding: 0;
+  }
+  
+  #historico {
+    .info-box {
+      width: auto !important;
+      max-width: 100% !important;
+      display: block;
+      margin: 0 0 0 135px !important;
+      position: relative;
+      text-align: left;
+    }
+    
+    li {
+      width: 100%;
+      display: block;
+      margin: 0;
+      
+      a img {
+        width: 120px;
+        float: left;
+        margin: 0;
+      }
+    }
   }
 
   #call-action {
