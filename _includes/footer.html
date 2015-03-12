@@ -21,7 +21,7 @@
     $('html,body').scrollTo(this.hash, this.hash);
   });
   
-  if(document.body.offsetWidth >= 686) {
+  if(document.body.offsetWidth >= 800) {
     $(window).on("scroll touchmove", function() {
       $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
     });
