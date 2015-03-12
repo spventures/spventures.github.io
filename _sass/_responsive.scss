@@ -177,6 +177,7 @@
       position: relative;
       padding: 15px 0;
       z-index: 100;
+      min-height: 275px;
       
       .info-box,
       #t3 .info-box {
@@ -186,11 +187,13 @@
         margin: 0 !important;
         top: 0;
         right: 0 !important;
-        left: 150px;
+        left: 120px;
+        bottom: 0;
       }
       
       img {
-        margin-left: 20px;
+        width: 60px !important;
+        margin-left: 25px;
       }
     }
   }
