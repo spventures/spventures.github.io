@@ -130,7 +130,7 @@ header.default.tiny {
   
   .criatec-logos {
     
-    span {
+    li {
       margin: 0 0 10px 30px;
       display: inline-block;
     }
@@ -147,7 +147,7 @@ header.default.tiny {
 
 .info-box {
   position: absolute;
-  margin-left: 70px;
+  margin-left: 40px;
   max-width: 200px;
   margin-top: 80px;
   background-color: rgba(202,168,51,0.8);
@@ -158,6 +158,18 @@ header.default.tiny {
   
   p {
     margin: 10px 0 0 0;
+  }
+}
+
+#t1:hover,
+#t2:hover,
+#t3:hover,
+#t4:hover,
+#t5:hover,
+.criatec-logos li:hover {
+  
+  .info-box {
+    display: block;
   }
 }
 
@@ -230,17 +242,6 @@ header.default.tiny {
 
 // Team
 
-#t1:hover,
-#t2:hover,
-#t3:hover,
-#t4:hover,
-.criatec-logos span:hover {
-  
-  .info-box {
-    display: block;
-  }
-}
-
 .team {
   margin-top: 20px;
 
@@ -291,7 +292,7 @@ ul#list-item li {
   margin-top: 15px;
 }
 
-.criatec-logos span {
+.criatec-logos li {
   width: 125px;
   display: inline-block;
   margin: 0 10px 10px 10px;
