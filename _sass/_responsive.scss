@@ -188,4 +188,30 @@
       display: none;
     }
   }
+  
+  #internas {
+
+    .headline {
+      margin: 50px 0 0 0;
+    }
+  }
+  
+  .contact-form {
+  
+    form {
+      width: 94% !important;
+      padding: 3% !important;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 96%;
+      padding: 0 2%;
+    }
+    
+    select {
+      width: 100%;
+    }
+  }
+  
 }
