@@ -40,6 +40,15 @@
       margin-bottom: 10px;
     }
   }
+
+  #empreendedor {
+    background-position: -420px -200px;
+  }
+
+  #investidores {
+    background-position: -620px -120px;
+  }
+  
   
   // Footer
 
@@ -139,6 +148,12 @@
       margin-bottom: 20px;
       display: block;
     }
+  }
+  
+  #empreendedor .right,
+  #investidores .left {
+    background: none;
+    padding: 0;
   }
 
   #call-action {
