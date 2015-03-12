@@ -153,8 +153,14 @@ header.default.tiny {
   background: #000;
 }
 
+#empreendedor .right,
+#investidores .left {
+  background: rgba(#fff, .3);
+  padding: 20px;
+}
+
 #empreendedor {
-  background: url("../images/empreendedor.jpg") -200px -250px no-repeat;
+  background: url("../images/empreendedor.jpg") -250px -250px no-repeat;
 }
 
 #investidores {
