@@ -240,9 +240,43 @@ header.default.tiny {
   }
 }
 
-ul.team li { 
-  margin: 10px 8px;
-  display: inline-block;
+.team {
+  margin-top: 20px;
+
+  li { 
+    margin: 10px 4px;
+    display: inline-block;
+  }
+  
+  li#t1 {
+    img {
+      width: 75px;
+    }
+  }
+  
+  li#t2 {
+    img {
+      width: 85px;
+    }
+  }
+
+  li#t3 {
+    img {
+      width: 75px;
+    }
+  }
+  
+  li#t4 {
+    img {
+      width: 105px;
+    }
+  }
+  
+  li#t5 {
+    img {
+      width: 87px;
+    }
+  }
 }
 
 ul#list-item li {
