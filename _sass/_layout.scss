@@ -124,6 +124,24 @@ header.default.tiny {
 }
 
 
+// Quem somos
+
+#quem-somos {
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    width: 60%;
+    text-align: right;
+  }
+  
+  .info-box {
+    text-align: left;
+  }
+}
+
+
 // Historico
 
 #historico { 
@@ -253,10 +271,10 @@ header.default.tiny {
 // Team
 
 .team {
-  margin-top: 20px;
+  margin-top: 30px;
 
   li { 
-    margin: 10px 0;
+    margin: 10px 0 0 5px;
     display: inline-block;
   }
   
