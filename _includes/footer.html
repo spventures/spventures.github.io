@@ -25,9 +25,11 @@
     $(window).on("scroll touchmove", function() {
       $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
     });
-    
-    $(".main-nav li a").click(function(){
-      (".main-nav").hide();
+  }
+  
+  if(document.body.offsetWidth <= 800) {
+    $(".main-nav a").click(function(){
+      $('.main-nav').hide();
     });
   }
   
