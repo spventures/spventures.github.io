@@ -1,7 +1,7 @@
 # Site settings
-title: Your awesome title
+title: SP Ventures
 email: your-email@domain.com
-description: > # A SP Ventures é referência na condução de investimentos em Venture Capital no Brasil. 
+description: > # A SP Ventures é referência na condução de investimentos em Venture Capital no Brasil.
 baseurl: "/spventures" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
