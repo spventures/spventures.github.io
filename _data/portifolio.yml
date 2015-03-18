@@ -1,0 +1,19 @@
+- name: PROMIP
+  site: http://www.promip.agr.br/
+  infos: Criação de ácaros predadores até 40 vezes mais eficientes que defensivos químicos no controle de pragas agrícolas.
+  image: images/portfolio/promip.jpg
+
+- name: INPRENHA
+  site: http://www.inprenha.com.br/
+  infos: Desenvolvimento de proteína que aumenta o índice de prenhêz em mamíferos de maneira sem precedentes.
+  image: images/portfolio/imprenha.jpg
+
+- name: CONCIL
+  site: http://www.concil.com.br/
+  infos: SaaS que traz inteligência de gestão para o contexto da conciliação contábil e de cartão, minimizando perdas ao longo de toda a cadeia de pagamentos.
+  image: images/portfolio/concil.jpg
+
+- name: VENTRIX
+  site: http://www.ventrix.com.br/
+  infos: Equipamentos de telemedicina para a realização de diagnósticos à distância, democratizando o acesso à saúde em diversas especialidades médicas.
+  image: images/portfolio/ventrix.jpg

@@ -74,46 +74,18 @@ permalink: /
       <p>O Fundo de Inovação Paulista (FIP) conta com o apoio e recursos da Desenvolve SP, FINEP, FAPESP, Sebrae-SP, CAF e Jive Investments para investir em startups de base tecnológica do estado de São Paulo. Com o propósito de fomentar o ecossistema empreendedor local, o fundo conta com um capital comprometido de R$ 105 Milhões. O FIP tem um portfólio-alvo de 20 empresas de base tecnológica, a serem investidas até 2017. Os aportes variam, em geral, de R$ 2 Milhões a R$ 6 Milhões por empresa investida.</p>
     </div>
     <ul class="criatec-logos left">
-      <li>
-        <a class="bwWrapper" href="http://www.promip.agr.br/" target="_blank">
-          <img src="images/portfolio/promip.jpg">
-        </a>
-        <div class="info-box">
-          <strong>PROMIP</strong>
-          <br>
-          Criação de ácaros predadores até 40 vezes mais eficientes que defensivos químicos no controle de pragas agrícolas.
-        </div>
-      </li>
-      <li>
-        <a class="bwWrapper" href="http://www.inprenha.com.br/" target="_blank">
-          <img src="images/portfolio/imprenha.jpg">
-        </a>
-        <div class="info-box">
-          <strong>INPRENHA</strong>
-          <br>
-          Desenvolvimento de proteína que aumenta o índice de prenhêz em mamíferos de maneira sem precedentes.
-        </div>
-      </li><br>
-      <li>
-        <a class="bwWrapper" href="http://www.concil.com.br/" target="_blank">
-          <img src="images/portfolio/concil.jpg">
-        </a>
-        <div class="info-box">
-          <strong>CONCIL</strong>
-          <br>
-          SaaS que traz inteligência de gestão para o contexto da conciliação contábil e de cartão, minimizando perdas ao longo de toda a cadeia de pagamentos.
-        </div>
-      </li>
-      <li>
-        <a class="bwWrapper" href="http://www.ventrix.com.br/" target="_blank">
-          <img src="images/portfolio/ventrix.jpg">
-        </a>
-        <div class="info-box">
-          <strong>VENTRIX</strong>
-          <br>
-          Equipamentos de telemedicina para a realização de diagnósticos à distância, democratizando o acesso à saúde em diversas especialidades médicas.
-        </div>
-      </li>
+        {% for company in site.data.portifolio %}
+          <li>
+            <a class="bwWrapper" href="{{ company.site }}" target="_blank">
+              <img src="{{ company.image }}">
+            </a>
+            <div class="info-box">
+              <strong>{{ company.name }}</strong>
+              <br>
+              {{ company.infos }}
+            </div>
+          </li>
+        {% endfor %}
     </ul>
   </div>
 </div>
@@ -126,9 +98,9 @@ permalink: /
     </div>
     <div>
       <ul class="criatec-logos right">
-        {% for company in site.data.companies %}
+        {% for company in site.data.empresas %}
           <li>
-            <a class="bwWrapper" href="http://www.magnamed.com.br/" target="_blank">
+            <a class="bwWrapper" href="{{ company.site }}" target="_blank">
               <img src="{{company.image}}">
             </a>
             <div class="info-box">
