@@ -128,11 +128,11 @@ header.default.tiny {
 
 // Slider
 
-.big-image {
-  height: 550px;
-  padding-top: 80px;
-  background: url("../images/bg-slider2.jpg") center center no-repeat;
-  background-size: 100% auto;
+.bxslider {
+  box-shadow: none;
+  img {
+    width: 100%;
+  }
 }
 
 

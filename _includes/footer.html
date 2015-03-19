@@ -16,6 +16,10 @@
 
 <script type="text/javascript">
 
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+  });
+
   $(".main-nav a").click(function(evn){
     evn.preventDefault();
     $('html,body').scrollTo(this.hash, this.hash);
