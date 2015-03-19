@@ -219,25 +219,27 @@
       background: #f2f2f2;
       margin: 30px 0 0 0 !important;
       position: relative;
-      padding: 15px 0;
       z-index: 100;
-      min-height: 315px;
+      padding: 15px 0 0 0;
+      min-height: auto;
+      text-align: center;
 
       .info-box,
       #t5 .info-box {
         width: auto !important;
         max-width: 100% !important;
+        position: relative;
         display: block;
-        margin: 0 !important;
-        top: 0;
-        right: 0 !important;
-        left: 120px;
-        bottom: 0;
+        margin: 15px 0 0 0 !important;
+        top: none !important;
+        text-align: left;
+        right: none !important;
       }
 
       img {
-        width: 60px !important;
-        margin-left: 25px;
+        width: 40px !important;
+        margin-left: 0;
+        margin: auto;
       }
     }
   }
