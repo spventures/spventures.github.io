@@ -27,12 +27,12 @@ header.default {
   top: 0;
   left: 0;
   z-index: 400;
-  
+
   .logo {
     width: 200px;
     margin-top: 12px;
     float: left;
-    
+
     &:hover {
       opacity: .9;
     }
@@ -65,7 +65,7 @@ header.default {
       color: $menu-color;
       font-weight: bold;
 
-      &:hover { 
+      &:hover {
         color: $gold;
         text-decoration: none;
       }
@@ -74,15 +74,15 @@ header.default {
 }
 
 #internas {
-  
+
   header .wrapper {
     position: relative;
   }
-  
+
   .main-nav {
     display: none;
   }
-  
+
   .back-link {
     border-radius: 2px;
     height: 30px;
@@ -95,7 +95,7 @@ header.default {
     position: absolute;
     right: 0;
     top: 20px;
-    
+
     &:hover {
       text-decoration: none;
       background: $medium-grey;
@@ -105,7 +105,7 @@ header.default {
 
 header.default.tiny {
   height: 40px;
-  
+
   .logo {
     width: 100px !important;
     margin-top: 7px !important;
@@ -114,7 +114,7 @@ header.default.tiny {
   ul {
     margin-top: 8px;
   }
-  
+
 }
 
 #internas {
@@ -128,7 +128,7 @@ header.default.tiny {
 
 // Content
 
-.left, 
+.left,
 .right {
   width: 46%;
   display: block;
@@ -151,10 +151,10 @@ header.default.tiny {
   padding: 40px 0;
 }
 
-#portfolio, 
+#portfolio,
 #call-action {
   background-color: $blue;
-  
+
   h1, h2, h3, p {
     color: #fff;
   }
@@ -172,7 +172,7 @@ header.default.tiny {
     width: 60%;
     text-align: right;
   }
-  
+
   .info-box {
     text-align: left;
   }
@@ -181,19 +181,19 @@ header.default.tiny {
 
 // Historico
 
-#historico { 
+#historico {
   background-color: $light-gray;
 
   .criatec-logos {
     margin-right: -20px;
-    
+
     li {
       margin: 0 0 10px 30px;
       display: inline-block;
     }
   }
-  
-  .left { 
+
+  .left {
     width: 35%;
   }
 
@@ -212,7 +212,7 @@ header.default.tiny {
   color: #fff;
   display: none;
   z-index: 300;
-  
+
   p {
     margin: 10px 0 0 0;
   }
@@ -233,7 +233,7 @@ header.default.tiny {
 #t4:hover,
 #t5:hover,
 .criatec-logos li:hover {
-  
+
   .info-box {
     display: block;
   }
@@ -251,7 +251,7 @@ header.default.tiny {
 #investidores .left {
   background: rgba(#fff, .3);
   padding: 20px;
-  
+
   a {
     font-weight: bold;
   }
@@ -314,17 +314,17 @@ header.default.tiny {
   margin-top: 20px;
   margin-right: 25px;
 
-  li { 
+  li {
     margin: 10px 0 0 5px;
     display: inline-block;
   }
-  
+
   li#t1 {
     img {
       width: 75px;
     }
   }
-  
+
   li#t2 {
     img {
       width: 85px;
@@ -336,13 +336,13 @@ header.default.tiny {
       width: 75px;
     }
   }
-  
+
   li#t4 {
     img {
       width: 105px;
     }
   }
-  
+
   li#t5 {
     img {
       width: 87px;
@@ -379,19 +379,19 @@ ul#list-item li {
   background: #fff;
   text-align: center;
   padding: 20px 0 5px 0;
-  
+
   h2 {
     font-size: 12px;
     font-weight: normal;
     text-transform: uppercase;
     opacity: .4;
   }
-  
+
   li {
     display: inline-block;
     margin: 5px;
   }
-  
+
   a img {
     width: 150px;
   }
@@ -412,11 +412,11 @@ footer {
     li {
       font-size: 11px;
     }
-    
+
     a {
       color: #fff;
       opacity: .7;
-      
+
       &:hover {
         color: #fff;
         opacity: 1;
@@ -444,7 +444,7 @@ footer {
   vertical-align: middle;
   z-index: 99;
 }
- 
+
 .menu-btn span {
   display: block;
   width: 19px;
@@ -453,7 +453,7 @@ footer {
   background: rgb(0,0,0);
   z-index: 99;
 }
- 
+
 .expand {
   display: block !important;
   position: absolute;
@@ -469,7 +469,7 @@ footer {
       text-transform: uppercase;
       color: $menu-color;
 
-      &:hover{ 
+      &:hover{
         color: $gold;
         text-decoration: none;
         border-bottom: 2px solid $gold;
@@ -502,21 +502,22 @@ footer {
 
 .contact-form {
   padding: 40px 0;
-  
+
   form {
     width: 450px;
     background: rgba(#fff, .5);
     padding: 40px;
     margin: auto;
   }
-  
+
   label {
     font-weight: bold;
     margin-bottom: 5px;
     display: inline-block;
   }
-  
+
   input[type="text"],
+  input[type="number"],
   input[type="email"],
   textarea {
     border-radius: 2px;
@@ -527,6 +528,7 @@ footer {
   }
 
   input[type="text"],
+  input[type="number"],
   input[type="email"] {
     width: 240px;
     height: 40px;
@@ -547,7 +549,7 @@ footer {
   li:first-child {
     margin-top: 0;
   }
-  
+
   .hide {
     display: none;
   }
@@ -555,13 +557,13 @@ footer {
   .req {
     color: red;
   }
-  
+
   .buttons {
     padding-top: 30px;
     margin-top: 30px;
     border-top: 2px solid #ddd;
   }
-  
+
   input[type="submit"] {
     width: 120px;
     height: 40px;
