@@ -556,6 +556,7 @@ footer {
 
   .req {
     color: red;
+    font-weight: bold;
   }
 
   .buttons {
@@ -581,4 +582,8 @@ footer {
       cursor: pointer;
     }
   }
+}
+
+.thanks {
+  font-size: 1.1em;
 }
