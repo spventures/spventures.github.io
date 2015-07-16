@@ -1,7 +1,7 @@
 <footer>
   <div class="wrapper">
     <span class="small">
-       <strong>R. Helena, 309, 10 andar. Vila Olimpia - São Paulo / SP</strong><br>
+       <strong>Avenida Brigadeiro Faria Lima, 1485, 18° andar. Pinheiros - São Paulo / SP</strong><br>
       (11) 2594-8774
     </span>
     <ul class="main-nav">
@@ -24,34 +24,34 @@
     evn.preventDefault();
     $('html,body').scrollTo(this.hash, this.hash);
   });
-  
+
   if(document.body.offsetWidth >= 800) {
     $(window).on("scroll touchmove", function() {
       $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
     });
   }
-  
+
   if(document.body.offsetWidth <= 800) {
     $(".main-nav a").click(function(){
       $('.main-nav').hide();
     });
   }
-  
+
   $("#menu-trigger").click(function(){
     $('.main-nav').toggle();
   });
-  
+
   jQuery(function($){
     $( '.menu-btn' ).click(function(){
      $('.responsive-menu').addClass('expand')
     })
-  
+
    $( '.help-close' ).click(function(){
      $('.responsive-menu').removeClass('expand')
      $('.menu-btn').removeClass('btn-none')
    })
   })
-  
+
   $('.bwWrapper').BlackAndWhite({
       hoverEffect : true, // default true
       // set the path to BnWWorker.js for a superfast implementation
@@ -68,5 +68,5 @@
           // this callback gets executed anytime an image is converted
       }
   });
-  
+
 </script>
