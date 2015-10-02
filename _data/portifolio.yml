@@ -16,4 +16,14 @@
 - name: VENTRIX
   site: http://www.ventrix.com.br/
   infos: Equipamentos de telemedicina para a realização de diagnósticos à distância, democratizando o acesso à saúde em diversas especialidades médicas.
-  image: images/portfolio/ventrix.jpg
+  image: images/portfolio/ventrix-new.jpg
+
+- name: NEXXTO
+  site: http://nexxto.com.br/
+  infos: Pioneira na revolução da Internet das Coisas na América Latina com soluções para gestão e multissensoriamento de ativos de TI.
+  image: images/portfolio/nexxto-new.jpg
+
+- name: Smartbill
+  site: http://www.smartbill.com.br/
+  infos: Plataforma cloud de Billing as a Service (BaaS) para viabilizar a migração de modelos de negócio para a revolução da subscription economy.
+  image: images/portfolio/smartbill-new.jpg
