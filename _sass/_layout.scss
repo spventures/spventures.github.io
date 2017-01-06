@@ -125,6 +125,57 @@ header.default.tiny {
   }
 }
 
+#main-banner {
+  height: 400px;
+  background: url("../images/bg-slider2.jpg") center bottom no-repeat;
+  background-size: cover;
+  padding-top: 170px;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    background: rgba(white, .7);
+    padding: 20px 20px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+
+  h2 {
+    width: 50%;
+    font-size: 18px;
+    background: rgba(#34516a, .7);
+    padding: 18px 20px 90px 20px;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    margin: 0;
+  }
+  
+  a {
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: $gold;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 0 15px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;;
+    left: 20px;
+    bottom: 25px;
+
+    &:hover {
+      box-shadow: 0 0 50px rgba(#fff, .2);
+    }
+  } // a
+}
+
 
 // Content
 
